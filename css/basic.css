@@ -1,0 +1,91 @@
+/* RESET */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video,header, #header, footer#footer, aside,.aside, nav, .nav, menu, main, section, details, hr,  input, textarea, button 
+{margin: 0; 	padding: 0; border: 0; font-size: 100%;font: inherit; vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+/* RESET Groundwork */
+*, :after, :before {-moz-box-sizing: border-box; box-sizing: border-box;}
+header, footer, aside, menu, nav, section, article, details, #header, #footer, .aside,.menu, .nav, .section, 
+.article, .details {   display: block;}  
+ button, input{display: inline-block;width: auto;}
+*, *:before, *:after {-moz-box-sizing: border-box;}
+img, a img {border: 0 none;  max-width: 100%;}
+/* End RESET */
+
+/* GENERAL SETTINGS and GRID */
+
+html, body {	font-size: 101%;}
+.row, .article {clear: both;width: 100%;} 
+.row:after, .article:after  {clear: both;  content: " "; display: block; font-size: 0; height: 0; visibility: hidden;}
+
+#container {margin: 0 auto; max-width: 1200px; background-color: #fff; }
+#header {display: inline-block;width: auto;}
+#footer {margin-top: 10px}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, 
+.col-6-off3, .col-3-left, .col-3-right 
+{display: inline-block;float: left; min-height: 1px; position: relative; padding: 10px;} 
+
+.col-1 {width: 8.3333%;}
+.col-2 {width: 16.6666%; }
+.col-3{width: 25%; }
+.col-4 {width: 33.3333%; }
+.col-5 {width: 41.9999%; }
+.col-6 {width: 50%;; }
+.col-7 {width: 58.3333%; }   
+.col-8 {width: 66.6666%; } 
+.col-9 {width: 75%; } 
+.col-10 {width: 83.9999%; } 
+.col-11 {width: 91.3333%; }    
+.col-12 {width: 99.9999%; }
+
+.col-6-off3 {width: 50%;left: 25%; } 
+.col-3-left {width: 25%;   right: 50%;border-right: 1px solid #DDDDDD; }
+.col-3-right {width: 25%;  border-left: 1px solid #DDDDDD; }
+
+.off-1 {left: 8.3333%;}
+.off-2 {left: 16.6666%; }
+.off-3 {left: 25%; }
+.off-4 {left: 33.3333%; }
+.off-5 {left: 41.9999%; }
+.off-6 {left: 50%;; }
+.off-7 {left: 58.3333%; }   
+.off-8 {left: 66.6666%; } 
+.off-9 {left: 75%; } 
+.off-10 {left: 83.9999%; } 
+.off-11 {left: 91.3333%; } 
+
+/* End GENERAL */
+
+
+/* RESPONSIVE BEHAVIOUR */
+
+@media screen and (max-width: 768px) {
+	.col-6-off3, .col-3-left, .col-3-right,
+	.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12
+	{clear: both; float: none; width: 100% !important;
+    max-width: 738px !important; left: 0; text-align: left; }
+	.align-right {text-align: left;}
+	.col-4>div.article>.img {float: left !important; left: 0 !important; width: 50% !important;}
+	.col-3 {float: left; width: 50% !important;}
+	.article>.col-6-off3 , .article {max-width: 100% !important;}
+  }
+  
+@media screen and (max-width: 480px) {
+  	.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12,  	
+  	.col-6-off3, .col-3-left, .col-3-right 
+  	{clear: both; float: none; width: 100% !important;
+    max-width: 450px !important;  left: 0; text-align: left; }    
+  	.col-2	{ width: 50% !important; left: 0; text-align: left; }
+  	.col-1  	{width: 25% !important; left: 0; text-align: left; }
+	.col-4>div.article>p, .col-4>div.article>img {clear: both!important;float: none !important;width: 100% !important;}
+	.col-6>div.article>p, .col-6>div.article>img {clear: both!important;float: none !important;width: 100% !important;}
+}
+ 

@@ -1,0 +1,15 @@
+Creatix-CSS
+by Karin Soika www.creatix.org
+
+The reset.css is as provided by Eric Meyer (http://meyerweb.com/eric/tools/css/reset/index.html). 
+Some resets are by Groundwork-CSS (http://groundworkcss.github.io/).
+
+The gridsystem and responsive behaviour are inspired by Bootstrap (http://getbootstrap.com/) and 
+Groundwork-CSS (http://groundworkcss.github.io/). I find both frameworks great, but too bulky for my 
+needs. So I pickt the features I liked and combined them in order to come up with a 
+leaner version that gives me full responsiveness without loading to many files.
+
+The css-only navigation is by Nick La, Toronto. The full tutorial can be found here:
+http://webdesignerwall.com/tutorials/css-responsive-navigation-menu  .
+
+The animate.css is a collection of pure CSS3 animations by Dan Eden (from https://daneden.me/animate/) .

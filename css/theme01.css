@@ -1,0 +1,5 @@
+.article{ 	border: 1px dotted #999; }
+
+.col-3-left, .col-3-right { 	border: 0; }
+	
+	hr {border-width: 0;}

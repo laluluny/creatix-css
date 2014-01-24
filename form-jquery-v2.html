@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Creatix-CSS</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<link type="text/css" rel="stylesheet" media="all" href="css/basic.css" />
+<link type="text/css" rel="stylesheet" media="all" href="css/layout.css" />
+<link type="text/css" rel="stylesheet" media="all" href="css/theme03.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css' />
+
+
+
+<!-- jquery / jquery UI 
+  see: https://developers.google.com/speed/libraries/devguide?hl=de#jquery-ui
+ -->
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.min.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+<script>
+
+ $(function() {
+    $( "input[type=submit], a, button" )
+      .button()
+      .click(function( event ) {
+        event.preventDefault();
+      });
+
+
+ $( "#rerun" )
+      .button()
+      .click(function() {
+        alert( "Running the last action" );
+      })
+      .next()
+        .button({
+          text: false,
+          icons: {
+            primary: "ui-icon-triangle-1-s"
+          }
+        })
+        .click(function() {
+          var menu = $( this ).parent().next().show().position({
+            my: "left top",
+            at: "left bottom",
+            of: this
+          });
+          $( document ).one( "click", function() {
+            menu.hide();
+          });
+          return false;
+        })
+        .parent()
+          .buttonset()
+          .next()
+            .hide()
+            .menu();
+  });
+
+</script>
+</head>
+<body>
+<div id="header">
+	 <div class="row">Header</div>
+</div> <!-- END header -->
+    
+<div id="container">
+
+<hr />
+
+<div class="row">
+<div class="col-3">
+ 	   <h1>Left Sidebar</h1>
+  	  <hr />
+  	  <h3>Left Sidebar Image Gallery</h3>
+  	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  	  <p><button class="orange-bgd">View more</button></p>
+	</div><!-- END aside -->
+
+
+
+
+	<div class="col-6">
+ 	<hr />
+
+ <h1>Form</h1>
+<div>
+  <div>
+    <button id="rerun">Run last action</button>
+    <button id="select">Select an action</button>
+  </div>
+  <ul>
+    <li><a href="#">Open...</a></li>
+    <li><a href="#">Save</a></li>
+    <li><a href="#">Delete</a></li>
+  </ul>
+</div>
+<hr />
+    <div class="widget">
+   	<textarea></textarea>
+</div>
+	<hr />
+  	
+	<button onclick="alert('Hello');">A button element</button>  
+	<input type="submit" onclick="alert('Hello');" value="A submit button">
+
+<hr />
+
+<div id="radio1" class="ui-buttonset">
+			<input type="radio" id="radio1" name="radio" class="ui-helper-hidden-accessible"><label for="radio1" class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left" role="button" aria-disabled="false"><span class="ui-button-text">Choice 1</span></label>
+			<input type="radio" id="radio2" name="radio" checked="checked" class="ui-helper-hidden-accessible"><label for="radio2" class="ui-state-active ui-button ui-widget ui-state-default ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Choice 2</span></label>
+			<input type="radio" id="radio3" name="radio" class="ui-helper-hidden-accessible"><label for="radio3" class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-right" role="button" aria-disabled="false"><span class="ui-button-text">Choice 3</span></label>
+		</div>
+
+
+   	 <p><button>Read more</button></p>
+	</div><!-- END col-6-off3 -->
+
+	
+
+	<div class="col-3">
+ 	   <h1>Right Sidebar</h1>
+ 	   <hr />
+  	  <h3>Right Sidebar Image Gallery</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+   	   <p class="align-right"><button class="rot-bgd">View more</button></p>
+	</div><!-- END aside -->
+</div><!-- END row -->
+
+
+
+</div> <!-- END container -->
+
+
+    
+  </body>
+</html>
