@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Creatix-CSS</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, minimum-scale=1" />
+<link type="text/css" rel="stylesheet" media="all" href="css/basic.css" />
+<link type="text/css" rel="stylesheet" media="all" href="css/layout.css" />
+<link type="text/css" rel="stylesheet" media="all"
+	href="css/theme03.css" />
+
+
+<link type="text/css" rel="stylesheet" media="all" href="css/forms.css" />
+
+
+<link
+	href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800'
+	rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700'
+	rel='stylesheet' type='text/css' />
+
+
+
+<!-- jquery / jquery UI 
+  see: https://developers.google.com/speed/libraries/devguide?hl=de#jquery-ui
+ -->
+<link rel="stylesheet"
+	href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.min.css" />
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+<script>
+	$(function() {
+		$("input[type=submit], button").button().click(function(event) {
+			event.preventDefault();
+		});
+	});
+</script>
+
+</head>
+<body>
+	<div id="header">
+		<p>Form Example 01</p>
+	</div>
+	<!-- END header -->
+
+	<div id="container">
+		<form>
+			<hr />
+
+			<div class="row">
+
+
+				<div class="col-8">
+
+					<div class="form-section">
+						<h1>Kunden Daten</h1>
+						<dl class="col-12">
+							<dt>Name</dt>
+							<dd>
+								<input type="text" value="" />
+							</dd>
+						</dl>
+
+
+					</div>
+					<div class="form-section">
+
+						<dl class="col-6">
+							<dt>Vorname</dt>
+							<dd>
+								<input type="text" value="" />
+							</dd>
+						</dl>
+
+						<dl class="col-6">
+							<dt>Nachname</dt>
+							<dd>
+								<input type="text" value="" />
+							</dd>
+						</dl>
+
+						<dl class="col-6">
+							<dt>Beschreibung:</dt>
+							<dd>
+								<textarea></textarea>
+							</dd>
+						</dl>
+
+						<dl class="col-6">
+							<dt>Kategorie:</dt>
+							<dd>
+								<input type="checkbox" name="vehicle" value="Bike" />Technik<br>
+									<input type="checkbox" name="vehicle" value="Infrastruktur" />Infrastruktur
+
+
+								</br>
+							</dd>
+						</dl>
+					</div>
+
+					<div class="form-section">
+						<h1>Hardware Auswahl</h1>
+						<dl class="col-4">
+							<dt>Computer:</dt>
+							<dd>
+								<input type="checkbox" name="vehicle" value="Bike" />Dell<br>
+									<input type="checkbox" name="vehicle" value="Infrastruktur" />IBM
+
+
+								</br>
+							</dd>
+						</dl>
+						<dl class="col-4">
+							<dt>Laptop:</dt>
+							<dd>
+								<input type="checkbox" name="vehicle" value="Bike" />Wortmann<br>
+									<input type="checkbox" name="vehicle" value="Bike" />ASUS<br>
+										<input type="checkbox" name="vehicle" value="Infrastruktur" />Sony
+
+
+								</br>
+							</dd>
+						</dl>
+						<dl class="col-4">
+							<dt>Server:</dt>
+							<dd>
+								<input type="checkbox" name="vehicle" value="Bike" />HP<br>
+									<input type="checkbox" name="vehicle" value="Infrastruktur" />IBM
+
+
+								</br>
+							</dd>
+						</dl>
+					</div>
+
+					<div class="form-section">
+						<dl class="col-12">
+							<button>Speichern</button>
+							<button>Weiterleiten</button>
+							<button>Unterbrechen</button>
+							<button>Schließen</button>
+						</dl>
+					</div>
+				</div>
+
+				<!-- END col-8 -->
+
+				<div class="col-4">
+					<h1>Projekte</h1>
+					<hr />
+					<h1>Workflows</h1>
+					<hr />
+					<h3>Left Sidebar Image Gallery</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<p>
+						<button class="orange-bgd">Neues Projekt starten...</button>
+					</p>
+				</div>
+				<!-- END aside -->
+			</div>
+			<!-- END row -->
+		</form>
+
+	</div>
+	<!-- END demo -->
+
+
+
+
+	<!-- END container -->
+
+	<div id="footer">
+		<div id="footer1">Footer 1</div>
+		<div id="footer2">Footer 2</div>
+	</div>
+	<!-- END footer -->
+
+
+
+
+</body>
+</html>

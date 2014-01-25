@@ -1,0 +1,29 @@
+/*
+* CSS definitions for input forms
+*
+*/
+
+
+/* Simulation row */
+.form-section {
+	clear: both;
+	width: 100%;
+}
+
+/*** Default DL Definitonen ****/
+.form-section  dl {
+	margin: 0;
+}
+
+
+.form-section dl dd input[type="text"], .form-section dd input[type="password"], .form-section dd select
+	{
+	width: 100%;
+}
+
+ .form-section dl dd textarea {
+	width: 100%;
+	height: 5em;
+}
+
+
