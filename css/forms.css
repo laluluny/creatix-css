@@ -3,11 +3,9 @@
 *
 */
 
-
-/* Simulation row */
+/* frame for input widgets */
 .form-section {
-	clear: both;
-	width: 100%;
+	
 }
 
 /*** Default DL Definitonen ****/
@@ -15,15 +13,13 @@
 	margin: 0;
 }
 
-
-.form-section dl dd input[type="text"], .form-section dd input[type="password"], .form-section dd select
+/** Field size **/
+.form-section dl dd input[type="text"],.form-section dd input[type="password"],.form-section dd select
 	{
 	width: 100%;
 }
 
- .form-section dl dd textarea {
+.form-section dl dd textarea {
 	width: 100%;
 	height: 5em;
 }
-
-
