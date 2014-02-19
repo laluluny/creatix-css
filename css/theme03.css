@@ -26,6 +26,7 @@ h2.title:after { background: url(images/bg_off.png) repeat;
     content: ""; height: 5px; margin-left: 15px; position: absolute;
     top: 49px; width: 60%;}
 ul,li,ol {  line-height: 24px; list-style: none; margin: 0; padding: 0;}
+ul   {padding-left: 20px;}
 a:hover,a:focus { text-decoration: none; outline: none;	color: #666;}
 
 
