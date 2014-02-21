@@ -4,11 +4,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<title>Form JQery V2 | Creatix-CSS</title>
+<title>Form Example 02 JQery | Creatix-CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-<link type="text/css;charset=UTF-8" rel="stylesheet" media="all" href="css/creatix-basic.css" />
-<link type="text/css;charset=UTF-8" rel="stylesheet" media="all" href="css/creatix-layout.css" />
-<link type="text/css;charset=UTF-8" rel="stylesheet" media="all" href="css/theme03.css" />
+<link type="text/css;charset=UTF-8" rel="stylesheet" media="all" href="../css/creatix-basic.css" />
+<link type="text/css;charset=UTF-8" rel="stylesheet" media="all" href="../css/creatix-layout.css" />
+<link type="text/css;charset=UTF-8" rel="stylesheet" media="all" href="../themes/theme03.css" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css' />
 
@@ -65,7 +65,7 @@
 </head>
 <body>
 <div id="header">
-	 <div class="row">Header</div>
+	 <div class="row">Header </div>
 </div> <!-- END header -->
     
 <div id="container">
@@ -73,21 +73,10 @@
 <hr />
 
 <div class="row">
-<div class="col-3">
- 	   <h1>Left Sidebar</h1>
-  	  <hr />
-  	  <h3>Left Sidebar Image Gallery</h3>
-  	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  	  <p><button class="orange-bgd">View more</button></p>
-	</div><!-- END aside -->
 
-
-
-
-	<div class="col-6">
+	<div class="col-6 left-3">
  	<hr />
 
- <h1>Form</h1>
 <div>
   <div>
     <button id="rerun">Run last action</button>
@@ -100,10 +89,8 @@
   </ul>
 </div>
 <hr />
-    <div class="widget">
-   	<textarea></textarea>
-</div>
-	<hr />
+    
+   	 <h1>Form Article</h1>
   	
 	<button onclick="alert('Hello');">A button element</button>  
 	<input type="submit" onclick="alert('Hello');" value="A submit button">
@@ -117,12 +104,18 @@
 		</div>
 
 
-   	 <p><button>Read more</button></p>
-	</div><!-- END col-6-off3 -->
+   	 <p><button class="l-grey-bgd">Read more</button></p>
+	</div><!-- END col-6 left-3 -->
 
-	
+	<div class="col-3 right-6 stretch border-r">
+ 	   <h1>Left Sidebar</h1>
+  	  <hr />
+  	  <h3>Left Sidebar Image Gallery</h3>
+  	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  	  <p><button class="orange-bgd">View more</button></p>
+	</div><!-- END aside -->
 
-	<div class="col-3">
+	<div class="col-3 stretch border-l">
  	   <h1>Right Sidebar</h1>
  	   <hr />
   	  <h3>Right Sidebar Image Gallery</h3>
