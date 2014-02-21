@@ -1,25 +1,14 @@
-/*
-* CSS definitions for input forms
-*
-*/
+@charset "UTF-8";
 
+/** CSS definitions for input forms**/
 /* frame for input widgets */
-.form-section {
-	
-}
+.form-section {}
 
 /*** Default DL Definitonen ****/
-.form-section  dl {
-	margin: 0;
-}
+.form-section  dl {	margin: 0;}
 
 /** Field size **/
 .form-section dl dd input[type="text"],.form-section dd input[type="password"],.form-section dd select
-	{
-	width: 100%;
-}
+	{	width: 100%;}
 
-.form-section dl dd textarea {
-	width: 100%;
-	height: 5em;
-}
+.form-section dl dd textarea {	width: 100%;	height: 5em;}

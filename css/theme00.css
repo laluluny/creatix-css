@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 #demo .col-1, #demo .col-2, #demo .col-3, #demo .col-4,#demo  .col-5, #demo .col-6, 
 #demo .col-7, #demo .col-8, #demo .col-9, #demo .col-10, #demo .col-11, #demo .col-12
 {border: 1px dashed #fff; background-color: #9bcbec;} 

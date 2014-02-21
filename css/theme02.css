@@ -1,8 +1,7 @@
-.article{	border: 0; }
+@charset "UTF-8";
 
+.article{	border: 0; }
 .col-3-left, .col-3-right {	border: 0; }
-	
-	hr {border-width: 0;}
-	
+hr {border-width: 0;}	
 .row  {	border: 1px solid silver; margin-bottom:10px   }
 .article{	border: 1px solid greenyellow;; padding: 10px}

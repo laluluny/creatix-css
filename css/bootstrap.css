@@ -1,6 +1,6 @@
+@charset "UTF-8";
+
 /* Bootstrap styling for tables, buttons, forms */
-
-
 button, input, select, textarea { font-family: inherit; font-size: 100%; margin: 0; }
 button, input { line-height: normal; }
 button, select { text-transform: none; }
