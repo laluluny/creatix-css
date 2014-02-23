@@ -1,0 +1,21 @@
+body {
+	color: #727272;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#header {
+	background-color: #323b44;
+	color: #fff;
+	min-height: 50px;
+	width: 100%;
+	padding: 7px 0;
+	font-size: 2.33333em;
+	font-weight: 200;
+}
+
+h1,h2,h3,h4,h5,h6 {  font-weight: normal;
+    color: #666;
+    font-family: 'Oswald',sans-serif;
+    text-shadow: 0 0 1px rgba(0,0,0,0.01); }
