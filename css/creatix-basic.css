@@ -103,6 +103,6 @@ html, body {	font-size: 101%;}
 
 /* Individual Styles Imixs */
  
-.col-9>div.row>.col-6 {padding-left: 0;} 
+.nested {padding: 0;} 
 .border-r { border-right: 1px solid #DDDDDD; }
 .border-l {border-left: 1px solid #DDDDDD; }

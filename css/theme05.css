@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* This theme requires to add  
+<link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Source+Code+Pro:300,400,500,600' rel='stylesheet' type='text/css'>
+
+to the header of each page. */
+
+hr {border-color: #d5c8c4;
+    border-style:solid;
+    border-width:20px;
+    clear: both;
+    margin: 0;
+}
+	
+	body {background-color: #d5c8c4; color: #777;
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: 0.8em; font-weight: 200; color: #7f5753;line-height: 1.2em;}
+
+#header { top: 0; background-color: #d5c8c4;
+    min-height: 100px; width: 100%;
+    padding: 0;z-index: 5;
+    font-family: 'Fredericka the Great', cursive;font-size: 47px; color: #fff; white-space: nowrap;
+    
+}
+#header>div.row {margin: 60px auto 0 auto;max-width: 1200px;padding:0;}
+#container {;border-bottom: 30px solid #d5c8c4;}
+#container p+hr{display:none;}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, #footer1, #footer2
+{padding: 40px;} 
+.col-6, #footer1, #footer2  { border-right: 30px solid #d5c8c4;border-left: 30px solid #d5c8c4; }
+#footer1   { border-bottom: 30px solid #d5c8c4; }
+h1,h2,h3,h4,h5,h6 {  font-weight: normal; color:#333538;}
+
+h1 { font-family: 'Fredericka the Great', cursive;font-size: 47px; color: #fff;}
+#container h1 {color: #dc4628; }
+h2, .lead {font-size: 1.4em; font-weight: 400; line-height: 1.2em; color: #7F5753; }  
+h3 {font-size: 1.2em; font-weight: 600; color: #8b9da4}
+p {font-family: 'Source Code Pro', sans-serif; font-weight: 300;line-height: 1.25em;}
+
+
+ul,li,ol {  line-height: 24px; list-style: none; margin: 0; padding: 0;}
+ul   {padding: 0 0 20px 20px;}
+a:link, a:visited, a:hover,a:focus {color: #E56622; text-decoration: none; font-weight: 500;}
+
+/* Footer */
+#footer  {margin: 0 auto;max-width: 1200px;}
+#footer1, #footer2 {background-color: #d5c8c4; color: #fff;width: 50%;margin-left: 16.6666%; }
+
+#footer1 {display: none;}
+#footer2 { text-transform: uppercase;text-align: center; }
+#footer2>a:link, #footer2>a:visited, #footer2>a:hover, #footer2>a:focus { color: #fff; }
+/* Individual Styles for index.html */
+
+.border-r { border-right: 0; }
+.border-l { border-left: 0;}
+
+
+
