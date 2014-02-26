@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<title>Layout Elements | Creatix-CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<link type="text/css;charset=UTF-8" rel="stylesheet" media="all" href="css/creatix-basic.css" />
+<link type="text/css;charset=UTF-8" rel="stylesheet" media="all" href="css/creatix-layout.css" />
+<link type="text/css;charset=UTF-8" rel="stylesheet" media="all" href="css/creatix-forms.css" />
+<link type="text/css;charset=UTF-8" rel="stylesheet" media="all" href="themes/theme04.css" />
+
+
+</head>
+<body>
+<div id="header">
+	 <div class="row">Testing Layout Elements </div>
+</div> <!-- END header -->
+    
+<div id="container">
+
+<div class="row">
+
+<div class="col-6 left-3">
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+<hr />
+<h2>Paragraph <small>- lead, link, em, b</small></h2>
+<p class="lead">Lead: Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.</p>
+<p>Lorem <a href="#" title="test link">test link</a> ipsum dolor sit amet, <em>emphasis</em> consectetuer adipiscing <b>bold</b>. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. </p>
+<hr />
+<h2>Forms</h2>
+
+<form>
+
+<div class="row form-section">
+<fieldset>
+<legend>Legend for Fieldset</legend>
+<dl class="col-12 nested">
+<dt>Text Field</dt>
+<dd><input type="text" value="" /></dd>
+	</dl>
+<dl class="col-12 nested">
+<dt>Textarea</dt>
+<dd><textarea></textarea></dd>
+</dl>
+</fieldset>
+<fieldset>
+<legend>Legend for Fieldset</legend>
+<dl class="col-4 nested">
+<dt>Checkbox</dt>
+<dd>
+	<input type="checkbox" name="check" value="check1" />Checkbox 1<br />
+	<input type="checkbox" name="check" value="check2" />Checkbox 2<br />
+</dd>
+	</dl>
+	<dl class="col-4 nested">
+<dt>Radio Button</dt>
+<dd><input type="radio" name="radio" value="radio1" />Radio Button 1<br />
+		<input type="radio" name="radio" value="radio2" />Radio Button 2<br /></dd>
+		
+	</dl>
+	<dl class="col-4 nested">
+	<dt>Select</dt>
+<dd><select name="select_element">
+			<optgroup label="Option Group 1">
+<option value="1">Option 1</option>
+<option value="2">Option 2</option>
+<option value="3">Option 3</option>
+</optgroup>
+
+<optgroup label="Option Group 2">
+<option value="1">Option 1</option>
+<option value="2">Option 2</option>
+<option value="3">Option 3</option>
+</optgroup>
+		</select></dd>
+		
+	</dl></fieldset>
+	
+	</div>
+
+
+	<div class="row form-section">
+	<div class="col-12">
+<button>Reset</button>
+<button>Save</button>
+	</div>
+</div>
+
+</form>
+
+
+
+<hr />
+<h2>Tables</h2>
+<table cellspacing="0" cellpadding="0">
+<tr>
+<th>Table Header 1</th>
+<th>Table Header 2</th>
+<th>Table Header 3</th>
+</tr>
+<tr>
+<td>Division 1</td>
+<td>Division 2</td>
+<td>Division 3</td>
+</tr>
+<tr class="even">
+<td>Division 1</td>
+<td>Division 2</td>
+<td>Division 3</td>
+</tr>
+<tr>
+<td>Division 1</td>
+<td>Division 2</td>
+<td>Division 3</td>
+</tr>
+</table>
+
+<hr />
+
+
+</div><!-- END col-6 left-3 -->
+		
+
+
+
+
+
+<div class="col-3 right-6 stretch border-r">
+    <h3>List Types</h3>    
+<hr />
+<h4>Definition List</h4>
+<dl>
+<dt>Definition List Title</dt>
+<dd>This is a definition list division.</dd>
+</dl>
+<h4>Ordered List</h4>
+<ol>
+<li>List Item 1</li>
+<li>List Item 2</li>
+<li>List Item 3</li>
+</ol>
+<h4>Unordered List</h4>
+<ul>
+<li>List Item 1</li>
+<li>List Item 2</li>
+<li>List Item 3</li>
+</ul>
+</div><!-- END left sidebar -->
+
+<div class="col-3 stretch border-l">
+    <h3>Misc Stuff <small>- abbr, acronym, pre, code, sub, sup</small></h3>
+    <hr />
+   
+<p>Lorem <sup>superscript</sup> dolor <sub>subscript</sub> amet, consectetuer adipiscing elit. Nullam dignissim convallis est <code>code</code>.</p> 
+<p><cite>Cite: quisque aliquam. </cite> Nunc iaculis suscipit dui. Nam sit amet sem.</p> 
+<p><acronym title="National Basketball Association">NBA (acronym)</acronym> Mauris a ante. Suspendisse quam sem <abbr title="Avenue">AVE (abbrevation)</abbr>.</p>
+
+<blockquote>Blockquote: Praesent mattis, massa quis 
+luctus fermentum, turpis mi 
+volutpat justo, eu volutpat 
+enim diam eget metus. 
+Maecenas ornare tortor. </blockquote>
+</div><!-- right sidebar -->
+</div><!-- END row -->
+
+
+</div> <!-- END container -->
+
+<div id="footer">
+      <div id="footer1">   Footer 1   </div>
+      <div id="footer2">  Footer 2    </div>
+</div> <!-- END footer -->
+
+
+
+    
+  </body>
+</html>
+		

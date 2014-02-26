@@ -291,9 +291,12 @@
   <div class="col-6 left-6">.col-6 und .left-6</div>
 </div><!-- END row -->
 <hr />
+
+
 <h1>Nesting <small><code>.nested {padding: 0;} </code></small></h1>
+
 <div class="row">
-  <div class="col-9 nested">Level 1: <code>col-9 nested</code>
+  <div class="col-9">Level 1, regular style: <code>div class=&quot;col-9&quot;</code>
             <div class="row">
       <div class="col-4">
         Level 2: .col-4
@@ -304,22 +307,26 @@
        <div class="col-4">
         and another .col-4
       </div>
-    </div>
-    
-    
-    <div class="row">
-      <div class="col-6 ">
-        Level 2 with individual styling: .col-6
+    </div><!-- END row -->
+   </div><!-- END col-9 -->
+   </div><!-- END row -->
+   
+   
+<div class="row">
+  <div class="col-9 nested">Level 1: <code>div class=&quot;col-9 nested&quot;</code>
+            <div class="row">
+      <div class="col-4">
+        Level 2: .col-4
       </div>
       <div class="col-4">
-        and a .col-4
+        another .col-4
       </div>
-      <div class="col-2">
-        and .col-2
+       <div class="col-4">
+        and another .col-4
       </div>
-    </div>
+    </div><!-- END row -->
+  </div><!-- END col-9 nested -->
 
-  </div>
 </div><!-- END row -->
 </div><!-- END demo -->
 

@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+/* This theme requires to add  
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css' />
+inside the <head></head> area of each page. */
+
 .col-3-left, .col-3-right {	border: 0; }
 hr {border-width: 0;}
 	
@@ -97,6 +102,8 @@ input:hover, textarea:hover,
 input:focus, textarea:focus { 
 	border-color: #C9C9C9; 
 	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px; }
+	
+input[type="checkbox"] {vertical-align: sub;}
 
 
 

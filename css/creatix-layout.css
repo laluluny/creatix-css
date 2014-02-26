@@ -31,19 +31,25 @@ i, em {font-style: italic;}
 .text-center {text-align: center;}
 .text-right {text-align: right;}
 
-hr {border-color: #808080 #808080 #DDDDDD;
+hr {border-color: #808080 #808080 #ddd;
     border-style: none none solid; border-width: 0 0 1px;
     clear: both; margin: 10px auto;}
-abbr[title] {border-bottom: 1px dotted;}
+    
+input[type="checkbox"],  input[type="radio"] {margin-right: .5em;}
+select {font-size: inherit; color: inherit;}
+acronym, abbr {border-bottom: 1px dotted #666666; cursor: help;}
 dfn {font-style: italic;}
 mark {background: #ff0;  color: #000;}
 sub,sup {font-size: 75%;  line-height: 0;  position: relative;  vertical-align: baseline;}
 sup {top: -0.5em;}
 sub {bottom: -0.25em;}
+blockquote, q, cite {font-style: italic;}
+blockquote {margin-bottom: 1.71429rem;    padding: 1.71429rem;}
 code {background-color: #31708f; color: #fff; font-size: 90%;
     padding: 2px 4px; font-family: Courier,monospace; padding: 1px 5px; margin: 4px;}
     
 .img-responsive {display: block;  max-width: 100%;  height: auto;}
 .img-rounded {border-radius: 6px;}
 .img-circle {border-radius: 50%;}
+
 

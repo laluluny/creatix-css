@@ -7,7 +7,7 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video,header, #hea
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
 body {line-height: 1;}
-ol, ul {list-style: none;}
+ol, ul {list-style-position: outside;}
 blockquote, q {quotes: none;}
 blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
 table {border-collapse: collapse; border-spacing: 0;}
@@ -17,7 +17,6 @@ table {border-collapse: collapse; border-spacing: 0;}
 header, footer, aside, menu, nav, section, article, details, #header, #footer, .aside,.menu, .nav, .section, 
 .article, .details {   display: block;}  
  button, input{display: inline-block;width: auto;}
- input[type="checkbox"] {margin-right: .5em;vertical-align: sub;}
 img, a img {border: 0 none;  max-width: 100%;}
 /* End RESET */
 
@@ -106,3 +105,4 @@ html, body {	font-size: 101%;}
 .nested {padding: 0;} 
 .border-r { border-right: 1px solid #DDDDDD; }
 .border-l {border-left: 1px solid #DDDDDD; }
+button

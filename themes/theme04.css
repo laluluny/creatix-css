@@ -2,10 +2,10 @@
 
 /* This theme requires to add  
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css' />
-to the header of each page. */
+inside the <head></head> area of each page. */
 
-
-hr {border-color: #e7e7e2;
+hr {border: 0;}
+hr.divider {border-color: #e7e7e2;
     border-style:solid;
     border-width:20px;
     clear: both;
@@ -21,7 +21,7 @@ hr {border-color: #e7e7e2;
     min-height: 130px; width: 100%; padding: 0; z-index: 5;
     font-size: 80%; font-weight: 200;text-align: center; letter-spacing: 0.85em;}
     
-#header>div.row {margin-top: 93px;padding:0;}
+#header>div.row {margin-top: 93px;padding:0;text-transform: lowercase;}
 #container {margin-top: 120px;border-bottom: 30px solid #e7e7e2;}
 #container p+hr{display:none;}
 
@@ -30,26 +30,27 @@ hr {border-color: #e7e7e2;
 .col-6, #footer1, #footer2  { border-right: 30px solid #e7e7e2;border-left: 30px solid #e7e7e2; }
 #footer1   { border-bottom: 30px solid #e7e7e2; }
 h1,h2,h3,h4,h5,h6 {  font-weight: normal; color:#333538;}
-
+h2 {    color: #9898ca;   font-size: 1.8rem;}
+h3 {    color: #A1BAB2;   font-size: 1.15rem;}
 
 
 .lead {font-size: 1.2em;}
 ul,li,ol {  line-height: 24px; list-style: none; margin: 0; padding: 0;}
-ul   {padding: 0 0 20px 20px;}
+ul, ol   {padding: 0 0 20px 20px;}
 a:link, a:visited {color: #9cc}
 a:hover,a:focus { text-decoration: none; outline: none;color: #bb7;	}
+button, .button, input, textarea, select {border: 1px dotted #A1BAB2}
+.nested {padding: 0;} 
 
 /* Footer */
 #footer  {margin: 0 auto;max-width: 1200px;}
-#footer1, #footer2 {width: 50%;margin-left: 16.6666%; }
+#footer1, #footer2 {width: 50%;margin-left: 25%; }
 
 #footer1 {  background: #fff;}
 #footer2 {  background: #9898ca; text-transform: uppercase;color: #fff; text-align: center;font-size: 0.8em; }
 #footer2>a:link, #footer2>a:visited, #footer2>a:hover, #footer2>a:focus { color: #fff; }
 /* Individual Styles for index.html */
-h3 {    color: #A1BAB2;
-    font-size: 1.15rem;
-}
+
 
 .border-r { border-right: 0; }
 .border-l { border-left: 0;}

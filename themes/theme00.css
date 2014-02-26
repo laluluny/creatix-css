@@ -69,10 +69,15 @@
 .d-grey-bgd {background-color: #524F4F;color: #FFFFFF;}
 .d-grey-bgd:hover  {background-color: #383636;}
     
-button, input, .button, a.button { color: #FFFFFF;border-radius: 4px; cursor: pointer;
-    font-weight: 700;height: auto;width: auto;line-height: 1.5;
-    padding: 0.25em 1em; text-align: center; text-decoration: none;}
-    
+button, input, textarea, .button, a.button { color: #999; border: 1px solid #ddd; border-radius: 4px; cursor: pointer;height: auto;width: auto;line-height: 1.5;
+    padding: 0.25em 1em; text-decoration: none;}
+select{color: #2B2B2D;border: 1px solid #ddd; border-radius: 4px; }
+button, .button, a.button { color: #fff; text-align: center; font-weight: 700;background-color: #999;}
+
+fieldset {border: 1px solid #ddd; margin-bottom: 1em;}
+table, td, th {border: 1px solid #ddd; padding: 4px;}
+legend, th {color: #888;} 
+      
 #header {background-color: #fff;  min-height: 50px; padding: 7px 0;
 font-size: 2.33333em;   font-weight: 200;
 	width: 100%;}  
