@@ -22,7 +22,7 @@ hr.divider {border-color: #e7e7e2;
     font-size: 80%; font-weight: 200;text-align: center; letter-spacing: 0.85em;}
     
 #header>div.row {margin-top: 93px;padding:0;text-transform: lowercase;}
-#container {margin-top: 120px;border-bottom: 30px solid #e7e7e2;}
+#container {margin-top: 100px;border-bottom: 30px solid #e7e7e2;}
 #container p+hr{display:none;}
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, #footer1, #footer2

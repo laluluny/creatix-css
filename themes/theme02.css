@@ -1,7 +1,21 @@
 @charset "UTF-8";
 
-.article{	border: 0; }
-.col-3-left, .col-3-right {	border: 0; }
-hr {border-width: 0;}	
-.row  {	border: 1px solid silver; margin-bottom:10px   }
-.article{	border: 1px solid greenyellow;; padding: 10px}
+html,body,div,p,h1,h2,h3,ul,ol,span,a,table,td,form,img,li {color: #444;}
+body {padding:30px 25px; }
+#header {background-color: #FCB802; background-image: url("http://www.imixs.org/css/logo.png"); background-position: 15px 25px; background-repeat: no-repeat; height: 185px; width: 100%;  padding: 0; border-bottom: 60px solid #eee;}
+#header>div.row {margin-top: 20px; padding: 0 0 0 170px;border-top: 1px solid #fff; width: 100%;color: #fff; font-size: 34px; font-weight: normal; white-space: nowrap;}
+
+#footer1, #footer2 {background-color: #fff;color: #444; text-align: right; padding: 0 10px; min-height: 21px;}
+
+h1, h2, h3, h4, h5, h6 {font-size: 18px; font-weight: bold; margin-bottom: 0.3em; margin-top: 0.3em; }
+h1 {margin-top: 1.3em; color: #FCB802;}
+h2 {color: #333;}
+h3 {font-size: 14px; margin-bottom: 0.2em; color: #f2c40c;}
+h4 {}
+h5 {font-size: 12px; color: #30332E;}
+
+dd {margin: 0 0 1em 0; padding: 0;}
+a {color: #508AB5; text-decoration: none;}
+a:hover {color: #2a6496; text-decoration: underline;}
+
+.lead {color: #02a4e0; font-size: 37px; font-weight: bold; line-height: 45px; }
