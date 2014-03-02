@@ -1,0 +1,41 @@
+/*
+Theme Name: Creatix-Org
+Theme URI: http://creatix.org
+Author: Ralph Soika
+Author URI: http://creatix.org
+Description: This theme is based on the Wordpress theme Twenty Thirteen 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:  responsive-layout
+Text Domain: creatix
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+body {
+
+}
+#masthead {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+#main {
+	margin: 0 auto;
+	max-width: 1080px;
+}
+
+#colophon {
+	margin: 0 auto;
+	max-width: 1200px;
+	font-size: 0.85em;
+}
+
+#secondary {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0 10px;
+	
+	background:#f7f5e7;
+}
+

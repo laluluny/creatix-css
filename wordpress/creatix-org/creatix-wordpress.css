@@ -1,0 +1,531 @@
+/*
+This style sheet contains classes used by wordpress. The file is based on the wordrpess theme twentythirteen. 
+E.g. Navigation, menus, images
+*/
+.genericon:before,.menu-toggle:after,.featured-post:before,.date a:before,.entry-meta .author a:before,.format-audio .entry-content:before,.comments-link a:before,.tags-links a:first-child:before,.categories-links a:first-child:before,.edit-link a:before,.attachment .entry-title:before,.attachment-meta:before,.attachment-meta a:before,.comment-awaiting-moderation:before,.comment-reply-link:before,.comment-reply-login:before,.comment-reply-title small a:before,.bypostauthor>.comment-body .fn:before,.error404 .page-title:before
+	{
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font: normal 16px/1 Genericons;
+	vertical-align: text-bottom;
+}
+
+.search-form .search-submit {
+	display: none;
+}
+
+/**
+ * 2.0 Repeatable Patterns
+ * ----------------------------------------------------------------------------
+ */
+
+/* Assistive text */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	text-decoration: none;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
+}
+
+/*
+ * Responsive images
+ *
+ * Fluid images for posts, comments, and widgets
+ */
+.entry-content img,.entry-summary img,.comment-content img,.widget img,.wp-caption
+	{
+	max-width: 100%;
+}
+
+/* Make sure images with WordPress-added height and width attributes are scaled correctly. */
+.entry-content img,.entry-summary img,.comment-content img[height],img[class*="align"],img[class*="wp-image-"],img[class*="attachment-"]
+	{
+	height: auto;
+}
+
+img.size-full,img.size-large,img.wp-post-image {
+	height: auto;
+	max-width: 100%;
+}
+
+/* Make sure videos and embeds fit their containers. */
+embed,iframe,object,video {
+	max-width: 100%;
+}
+
+/* Override the Twitter embed fixed width. */
+.entry-content .twitter-tweet-rendered {
+	max-width: 100% !important;
+}
+
+/* Images */
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignleft {
+	margin: 5px 20px 5px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 10px 5px 0;
+}
+
+img.alignright {
+	margin: 5px 0 5px 20px;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 5px 10px;
+}
+
+img.aligncenter {
+	margin: 5px auto;
+}
+
+img.alignnone {
+	margin: 5px 0;
+}
+
+.wp-caption .wp-caption-text,.entry-caption,.gallery-caption {
+	color: #220e10;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 300;
+}
+
+img.wp-smiley,.rsswidget img {
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+.wp-caption.alignleft+ul,.wp-caption.alignleft+ol {
+	list-style-position: inside;
+}
+
+
+/**
+ * 4.1 Site Header
+ * ----------------------------------------------------------------------------
+ */
+.site-header .home-link {
+	color: #141412;
+	display: block;
+	margin: 0 auto;
+	max-width: 1080px;
+	min-height: 200px;
+	padding: 0 20px;
+	text-decoration: none;
+	width: 100%;
+}
+
+/**
+ * 4.2 Navigation
+ * ----------------------------------------------------------------------------
+ */
+.main-navigation {
+	clear: both;
+	margin: 0 auto;
+	max-width: 1080px;
+	min-height: 45px;
+	position: relative;
+}
+
+ul.nav-menu,div.nav-menu>ul {
+	margin: 0;
+	padding: 0 40px 0 0;
+}
+
+.nav-menu li {
+	display: inline-block;
+	position: relative;
+}
+
+.nav-menu li a {
+	color: #141412;
+	display: block;
+	font-size: 15px;
+	line-height: 1;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+.nav-menu li:hover>a,.nav-menu li a:hover {
+	background-color: #220e10;
+	color: #fff;
+}
+
+.nav-menu .sub-menu,.nav-menu .children {
+	background-color: #220e10;
+	border: 2px solid #f7f5e7;
+	border-top: 0;
+	display: none;
+	padding: 0;
+	position: absolute;
+	left: -2px;
+	z-index: 99999;
+}
+
+.nav-menu .sub-menu ul,.nav-menu .children ul {
+	border-left: 0;
+	left: 100%;
+	top: 0;
+}
+
+ul.nav-menu ul a,.nav-menu ul ul a {
+	color: #fff;
+	margin: 0;
+	width: 200px;
+}
+
+ul.nav-menu ul a:hover,.nav-menu ul ul a:hover {
+	background-color: #db572f;
+}
+
+ul.nav-menu li:hover>ul,.nav-menu ul li:hover>ul {
+	display: block;
+}
+
+.nav-menu .current_page_item>a,.nav-menu .current_page_ancestor>a,.nav-menu .current-menu-item>a,.nav-menu .current-menu-ancestor>a
+	{
+	color: #bc360a;
+	font-style: italic;
+}
+
+.menu-toggle {
+	display: none;
+}
+
+/* Navbar */
+.navbar {
+	background-color: #f7f5e7;
+	margin: 0 auto;
+	max-width: 1600px;
+	width: 100%;
+}
+
+.site-header .search-form {
+	position: absolute;
+	right: 20px;
+	top: 1px;
+}
+
+.site-header .search-field {
+	background-color: transparent;
+	background-image: url(images/search-icon.png);
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	border: none;
+	cursor: pointer;
+	height: 37px;
+	margin: 3px 0;
+	padding: 0 0 0 34px;
+	position: relative;
+	-webkit-transition: width 400ms ease, background 400ms ease;
+	transition: width 400ms ease, background 400ms ease;
+	width: 0;
+}
+
+.site-header .search-field:focus {
+	background-color: #fff;
+	border: 2px solid #c3c0ab;
+	cursor: text;
+	outline: 0;
+	width: 230px;
+}
+
+/**
+ * 5.7 Post/Paging Navigation
+ * ----------------------------------------------------------------------------
+ */
+.navigation .nav-previous {
+	float: left;
+}
+
+.navigation .nav-next {
+	float: right;
+}
+
+.navigation a {
+	color: #bc360a;
+}
+
+.navigation a:hover {
+	color: #ea9629;
+	text-decoration: none;
+}
+
+.paging-navigation {
+	background-color: #e8e5ce;
+	padding: 40px 0;
+}
+
+
+
+
+.paging-navigation .nav-next {
+	padding: 13px 0;
+}
+
+.paging-navigation a {
+	font-size: 22px;
+	font-style: italic;
+	font-weight: 300;
+}
+
+.paging-navigation .meta-nav {
+
+}
+
+
+.paging-navigation .nav-next .meta-nav {
+	margin-left: 10px;
+}
+
+.paging-navigation a:hover .meta-nav {
+	background-color: #ea9629;
+	text-decoration: none;
+}
+
+.post-navigation {
+	background-color: #fff;
+	color: #ca3c08;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 300;
+	padding: 20px 0;
+}
+
+.post-navigation .nav-links {
+	margin: 0 auto;
+	max-width: 1040px;
+}
+
+.sidebar .post-navigation .nav-links {
+	padding: 0 376px 0 60px;
+}
+
+.post-navigation a[rel="next"] {
+	float: right;
+	text-align: right;
+}
+
+/**
+ * 8.0 Media Queries
+ * ----------------------------------------------------------------------------
+ */
+
+/* Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See http://core.trac.wordpress.org/ticket/25888.
+ */
+@
+-ms-viewport {
+	width: device-width;
+}
+
+@
+viewport {
+	width: device-width;
+}
+
+@media ( max-width : 1599px) {
+}
+
+@media
+(
+max-width
+:
+1069px)
+{
+.image-navigation .nav-previous,.image-navigation .nav-next {
+	position: static;
+}
+
+}
+@media ( max-width : 999px) {
+}
+
+/* Collapse oversized image and pulled images after iPad breakpoint. */
+@media ( max-width : 767px) {
+}
+
+@media ( max-width : 643px) {
+	/* Small menu */
+	.menu-toggle {
+		cursor: pointer;
+		display: inline-block;
+		font: bold 16px/1.3 "Source Sans Pro", Helvetica, sans-serif;
+		margin: 0;
+		padding: 12px 0 12px 20px;
+	}
+	.menu-toggle:after {
+		content: "\f502";
+		font-size: 12px;
+		padding-left: 8px;
+		vertical-align: -4px;
+	}
+	.toggled-on .menu-toggle:after {
+		content: "\f500";
+		vertical-align: 2px;
+	}
+	.toggled-on .nav-menu,.toggled-on .nav-menu>ul {
+		display: block;
+		margin-left: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.toggled-on li,.toggled-on .children {
+		display: block;
+	}
+	.toggled-on .nav-menu li>ul {
+		background-color: transparent;
+		display: block;
+		float: none;
+		margin-left: 20px;
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+	.toggled-on .nav-menu li>ul a {
+		color: #141412;
+		width: auto;
+	}
+	.toggled-on .nav-menu li:hover>a,.toggled-on .nav-menu .children a {
+		background-color: transparent;
+		color: #141412;
+	}
+	.toggled-on .nav-menu li a:hover,.toggled-on .nav-menu ul a:hover {
+		background-color: #db572f;
+		color: #fff;
+	}
+	ul.nav-menu,div.nav-menu>ul {
+		display: none;
+	}
+}
+
+/* Mobile devices */
+@media ( max-width : 359px) {
+}
+
+/**
+ * 9.0 Print
+ * ----------------------------------------------------------------------------
+ */
+
+/* Retina-specific styles. */
+@media print , ( -o-min-device-pixel-ratio : 5/4) , (
+		-webkit-min-device-pixel-ratio : 1.25) , ( min-resolution : 120dpi) {
+	.site-header .search-field {
+		background-image: url(images/search-icon-2x.png);
+	}
+	.format-audio .audio-content,.format-status .entry-content:before,.format-status .entry-meta:before,.comment-list>li:after,.comment-list .children>li:before
+		{
+		background-image: url(images/dotted-line-2x.png);
+	}
+}
+
+@media print {
+	body {
+		background: none !important;
+		color: #000;
+		font-size: 10pt;
+	}
+	footer a[rel="bookmark"]:link:after,footer a[rel="bookmark"]:visited:after
+		{
+		content: " [" attr(href) "] "; /* Show URLs */
+	}
+	.site {
+		max-width: 98%;
+	}
+	.site-header {
+		background-image: none !important;
+	}
+	.site-header .home-link {
+		max-width: none;
+		min-height: 0;
+	}
+	.site-title {
+		color: #000;
+		font-size: 21pt;
+	}
+	.site-description {
+		font-size: 10pt;
+	}
+	.author-avatar,.site-footer,.comment-respond,.comments-area .comment-edit-link,.comments-area .reply,.comments-link,.entry-meta .edit-link,.page-links,.site-content nav,.widget-area,.main-navigation,.navbar,.more-link
+		{
+		display: none;
+	}
+	.entry-header,.entry-content,.entry-summary,.entry-meta {
+		margin: 0;
+		width: 100%;
+	}
+	.page-title,.entry-title {
+		font-size: 21pt;
+	}
+	.entry-meta,.entry-meta a {
+		color: #444;
+		font-size: 10pt;
+	}
+	.entry-content img.alignleft,.entry-content .wp-caption.alignleft {
+		margin-left: 0;
+	}
+	.entry-content img.alignright,.entry-content .wp-caption.alignright {
+		margin-right: 0;
+	}
+	.format-image .entry-content .size-full {
+		margin: 0;
+	}
+
+	/* Remove colors from post formats */
+	.hentry {
+		background-color: #fff;
+	}
+
+	/* Comments */
+	.comments-area>li.comment {
+		background: none;
+		position: relative;
+		width: auto;
+	}
+	.comment-metadata {
+		float: none;
+	}
+	.comment-author .fn,.comment-reply-link,.comment-reply-login {
+		color: #333;
+	}
+}
