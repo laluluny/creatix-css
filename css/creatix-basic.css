@@ -28,7 +28,7 @@ header, footer, aside, menu, nav, section, article, details, #header, #footer, .
 .article, .details { display: block;} 
  button, input{display: inline-block;width: auto;}
 img, a img {border: 0 none; max-width: 100%;}
-/* End RESET */
+/* End RESETs */
 
 
 /* GENERAL SETTINGS and GRID */
