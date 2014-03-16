@@ -19,5 +19,5 @@ Creatix-CSS was inspired by Bootstrap and GroundworkCSS. We love and admire both
 You can find a demo site here: <a href="http://www.creatix.org/creatix-css/">Demo</a>.
 Documentation is provided in the <a href="https://github.com/laluluny/creatix-css/wiki">Wiki Pages</a>
 
-We invite you to contribute to this project. If you have created your own theme based on Creatix-CSS and you like to share it with others just post it here as an new issue.
+We invite you to contribute to this project. If you have created your own theme based on Creatix-CSS and you like to share it with others just <a href="https://github.com/laluluny/creatix-css/issues">post it here as an new issue</a>.
 
