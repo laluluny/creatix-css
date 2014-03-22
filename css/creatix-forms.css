@@ -20,6 +20,7 @@ fieldset {border: 1px solid #ddd; margin-bottom: 1em; padding: 0.35em 0.625em 0.
 /** CSS definitions for input forms**/
 /* frame for input widgets */
 .form-section {}
+.form-section dd {margin-left: 0px;}
 /*** Default DL Definitonen ****/
 .form-section dl {margin: 0;}
 /** Field size **/
