@@ -9,7 +9,6 @@ html, body { color: #2B2B2D;font-family: Helvetica, Arial, Geneva,sans-serif; fo
 
 p, ul, ol, dl {font-weight: 400; line-height: 1.5; margin: 0 0 0.6em 0 ;}
 menu, ol, ul {padding-left: 20px;}
-dd { margin-left: 40px;}
 			
 a {color: #428bca; text-decoration: none;}
 a:hover,a:focus {color: #2a6496; text-decoration: underline;outline: 0;}
