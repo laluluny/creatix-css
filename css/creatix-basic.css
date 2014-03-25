@@ -51,7 +51,7 @@ html, body {font-size: 101%;}
 .col-7 {width: 58.3333%;} 
 .col-8 {width: 66.6666%;} 
 .col-9 {width: 75%;} 
-.col-10 {width: 83.9999%;} 
+.col-10 {width: 83.3333%;} 
 .col-11 {width: 91.3333%;} 
 .col-12 {width: 99.9999%;}
 
@@ -64,7 +64,7 @@ html, body {font-size: 101%;}
 .left-7 {left: 58.3333%;} 
 .left-8 {left: 66.6666%;} 
 .left-9 {left: 75%;} 
-.left-10 {left: 83.9999%;} 
+.left-10 {left: 83.3333%;} 
 .left-11 {left: 91.3333%;} 
 
 .right-1 {right: 8.3333%;}
@@ -76,7 +76,7 @@ html, body {font-size: 101%;}
 .right-7 {right: 58.3333%;} 
 .right-8 {right: 66.6666%;} 
 .right-9 {right: 75%;} 
-.right-10 {right: 83.9999%;} 
+.right-10 {right: 83.3333%;} 
 .right-11 {right: 91.3333%;} 
 
 /* Style for nested elements */
