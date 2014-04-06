@@ -90,7 +90,30 @@ html, body {font-size: 101%;}
 .right-11 {right: 91.3333%;} 
 
 /* Style for nested elements */
- .nested {padding: 0;} 
+.nested {padding: 0;} 
+.nested .col-1:FIRST-CHILD {padding-left:0;}
+.nested .col-1:LAST-CHILD {padding-right:0;}
+.nested .col-2:FIRST-CHILD {padding-left:0;}
+.nested .col-2:LAST-CHILD {padding-right:0;}
+.nested .col-3:FIRST-CHILD {padding-left:0;}
+.nested .col-3:LAST-CHILD {padding-right:0;}
+.nested .col-4:FIRST-CHILD {padding-left:0;}
+.nested .col-4:LAST-CHILD {padding-right:0;}
+.nested .col-5:FIRST-CHILD {padding-left:0;}
+.nested .col-5:LAST-CHILD {padding-right:0;}
+.nested .col-6:FIRST-CHILD {padding-left:0;}
+.nested .col-6:LAST-CHILD {padding-right:0;}
+.nested .col-7:FIRST-CHILD {padding-left:0;}
+.nested .col-7:LAST-CHILD {padding-right:0;}
+.nested .col-8:FIRST-CHILD {padding-left:0;}
+.nested .col-8:LAST-CHILD {padding-right:0;}
+.nested .col-9:FIRST-CHILD {padding-left:0;}
+.nested .col-9:LAST-CHILD {padding-right:0;}
+.nested .col-10:FIRST-CHILD {padding-left:0;}
+.nested .col-10:LAST-CHILD {padding-right:0;}
+.nested .col-11:FIRST-CHILD {padding-left:0;}
+.nested .col-11:LAST-CHILD {padding-right:0;}
+.nested .col-12 {padding-left:0;padding-right:0;}
  
 /* RESPONSIVE BEHAVIOUR */
 @media screen and (max-width: 768px) { 
