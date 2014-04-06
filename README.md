@@ -21,3 +21,6 @@ Documentation is provided in the <a href="https://github.com/laluluny/creatix-cs
 
 We invite you to contribute to this project. If you have created your own theme based on Creatix-CSS and you like to share it with others just <a href="https://github.com/laluluny/creatix-css/issues">post it here as an new issue</a>.
 
+Creatix-CSS is licensed under a Creative Commons Share Alike 4.0 International license.
+http://creativecommons.org/licenses/by-sa/4.0/
+

@@ -1,4 +1,14 @@
 @charset "UTF-8";
+/**
+ * Creatix-CSS is an CSS framework for responsive websites and applications. 
+ * https://github.com/laluluny/creatix-css
+ *
+ * It is licensed under a Creative Commons Share Alike 4.0 International license.
+ * http://creativecommons.org/licenses/by-sa/4.0/
+ * 
+ * Copyright (C) 2014 
+ * Karin Soika, Ralph Soika 
+ **/
  
 html, body { color: #2B2B2D;font-family: Helvetica, Arial, Geneva,sans-serif; font-size: 1em; line-height: 1.5; background: none repeat scroll 0 0 #fff; min-height: 100%; width: 100% !important;}
 
