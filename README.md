@@ -11,6 +11,9 @@ Creatix-CSS consists of different layers:
 - creatix-layout.css gives you some basic layout and styling (headers, paragraphs, forms, colors...).
 - creatix-forms adds baisc design rules form forms and web applications.
 
+Recently added:
+- a WordPress Theme based on Creatix-CSS.
+
 In addition to these technical layers you can add one of the themes provided by Creatix-CSS. Themes provide quite specific style to shape the look of your web project. You are also free to create your own indiviudal theme.
 
 Whatever your choice is:  it is always you who decides how much of the framework you want to use in your project.
