@@ -136,3 +136,7 @@ max-width: 450px !important; left: 0; text-align: left;}
 	.col-4>div.article>p, .col-4>div.article>img {clear: both!important;float: none !important;width: 100% !important;}
 	.col-6>div.article>p, .col-6>div.article>img {clear: both!important;float: none !important;width: 100% !important;}
 }
+
+/* Show/hide elements on mobile devices */
+@media screen and (max-width: 768px) {.desktop-only {display: none;}}
+@media screen and (min-width: 768px) {.mobile-only {display: none;}}
