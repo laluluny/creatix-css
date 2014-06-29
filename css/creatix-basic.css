@@ -123,6 +123,8 @@ html, body {font-size: 101%;}
 max-width: 738px !important; left: 0; text-align: left;}
 	.right-1, .right-2, .right-3, .right-4, .right-5, .right-6, .right-7, 
 	.right-8, .right-9, .right-10, .right-11 {right: 0;} 
+	.left-1, .left-2, .left-3, .left-4, .left-5, .left-6, .left-7, 
+	.left-8, .left-9, .left-10, .left-11 {left: 0;} 
 	.align-right {text-align: left;}
 	.col-4>div.article>.img {float: left !important; left: 0 !important; width: 50% !important;}
 	.article>.col-6, .article {max-width: 100% !important;}
