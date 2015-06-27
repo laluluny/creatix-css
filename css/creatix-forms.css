@@ -13,7 +13,7 @@
 /**Reset for form elements in different browsers*/
 button, input { line-height: normal;}
 button, select { text-transform: none;}
-button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer;*overflow: visible;}
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer;*overflow: visible;padding: 0.35em 0.75em;}
 button[disabled], html input[disabled] { cursor: default;}
 input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0;}
 input[type="search"] { -webkit-appearance: textfield;-moz-box-sizing: content-box;-webkit-box-sizing: content-box; 
@@ -30,7 +30,11 @@ fieldset {border: 1px solid #ddd; margin-bottom: 1em; padding: 0.35em 0.625em 0.
 /** CSS definitions for input forms**/
 /* frame for input widgets */
 .form-section {}
+.form-section dl dd {margin-bottom:15px;}
 /** Field size **/
-.form-section dl dd input[type="text"],.form-section dd input[type="password"],.form-section dd select
+.form-section dl dd input, .form-section dl dd input[type="text"],.form-section dd input[type="password"],.form-section dd select
 {width: 100%;}
+
+
 .form-section dl dd textarea {width: 100%;	height: 5em;}
+.form-section dl dt {font-weight: bold;}
