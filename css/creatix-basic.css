@@ -45,7 +45,7 @@ html, body {font-size: 101%;}
 .row, .article {clear: both;width: 100%;} 
 .row:after, .article:after {clear: both; content: " "; display: block; font-size: 0; height: 0; visibility: hidden;}
 
-#container {margin: 0 auto; max-width: 1200px; background-color: #fff;}
+#container {margin: 0 auto; max-width: 1200px;}
 #header {display: inline-block;width: auto;}
 #footer {margin-top: 10px}
 
