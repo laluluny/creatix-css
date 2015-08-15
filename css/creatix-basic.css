@@ -115,6 +115,9 @@ html, body {font-size: 101%;}
 .nested .col-11:LAST-CHILD {padding-right:0;}
 .nested .col-12 {padding-left:0;padding-right:0;}
  
+.pull-right {float: right;}
+.pull-left {float: left;}
+
 /* RESPONSIVE BEHAVIOUR */
 @media screen and (max-width: 768px) { 
 	.col-3 {float: left; width: 50% !important;}
