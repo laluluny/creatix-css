@@ -13,7 +13,6 @@
 html, body { color: #2B2B2D;font-family: Helvetica, Arial, Geneva,sans-serif; font-size: 1em; line-height: 1.5; background: none repeat scroll 0 0 #fff; min-height: 100%; width: 100% !important;}
 
 #header, header, #footer1, #footer2 {min-height: 50px; padding: 10px; width: 100%;}  
-#header {background-color: #333;color: #fff;  font-size: 2.33333em; font-weight: 200;}  
 #footer1 {background-color: #333;color: #fff;}
 #footer2 {background-color: #ddd;color: #888;}
 #container {  padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
